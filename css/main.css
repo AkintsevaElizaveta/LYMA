@@ -223,4 +223,43 @@ a {
   letter-spacing: 2px;
 }
 
+.publications {
+  padding: 0 150px;
+  min-height: 520px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.publications .slider_list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+.publications .slider_card {
+  max-width: 340px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
+  text-align: center;
+  padding: 30px;
+}
+.publications .slider_text {
+  font: 25px/30px "Roboto", sans-serif;
+  color: #1B1B1B;
+}
+.publications .slider_dots_item {
+  width: 10px;
+  height: 10px;
+  background-color: #AAAAAA;
+  margin: 0 5px;
+  display: inline-block;
+}
+.publications .slider_dots_item_active {
+  background-color: #1B1B1B;
+}
+
 /*# sourceMappingURL=main.css.map */
