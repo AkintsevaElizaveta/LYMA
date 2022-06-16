@@ -29,6 +29,10 @@ a{
   border: 1px solid #FFFFFF;
   padding: 7px 0;
   margin: 10px;
+  transition: 500ms;
+  &:hover{
+    transform: scale(1.1);
+  }
 }
 .header{
   padding: 25px 190px;

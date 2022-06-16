@@ -31,6 +31,10 @@ a {
   border: 1px solid #FFFFFF;
   padding: 7px 0;
   margin: 10px;
+  transition: 500ms;
+}
+.btn:hover {
+  transform: scale(1.1);
 }
 
 .header {
