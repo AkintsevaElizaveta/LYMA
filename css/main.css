@@ -14,6 +14,29 @@ a {
   overflow: hidden;
 }
 
+.description_text {
+  color: white;
+  margin: 0;
+  text-align: center;
+}
+
+.btn {
+  background: none;
+  color: white;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  font: 16px/25px "Montserrat", sans-serif;
+  width: 215px;
+  border: 1px solid #FFFFFF;
+  padding: 7px 0;
+  margin: 10px;
+  transition: 500ms;
+}
+.btn:hover {
+  transform: scale(1.1);
+}
+
 .header {
   padding: 25px 190px;
 }
@@ -60,6 +83,29 @@ a {
   background: black;
   color: white;
   padding: 5px 18px;
+}
+
+.main_container {
+  margin: 0;
+  background: url("../images/main_container_bg.jpg") 50% 50% no-repeat;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main_container .main_title {
+  color: white;
+  font: 57px/67px "Roboto", sans-serif;
+  font-size: 57px;
+  line-height: 67px;
+  margin: 0 0 35px;
+  text-align: center;
+}
+.main_container .main_container__description_text {
+  margin-bottom: 60px;
 }
 
 /*# sourceMappingURL=main.css.map */
