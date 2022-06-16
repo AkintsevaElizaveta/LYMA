@@ -174,4 +174,20 @@ a {
   margin-bottom: 16px;
 }
 
+.innovation {
+  background: url("../images/innovation.jpg") 50% 50% no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 729px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+.innovation__title {
+  margin-bottom: 28px;
+  text-transform: uppercase;
+}
+
 /*# sourceMappingURL=main.css.map */
