@@ -16,6 +16,7 @@ a{
   color: #FFFFFF;
   font: 38px/43px 'Roboto', sans-serif;
   margin: 0;
+  text-align: center;
 }
 .description_text{
   color: white;
@@ -94,7 +95,6 @@ a{
     font-size: 57px;
     line-height: 67px;
     margin-bottom: 35px;
-    text-align: center;
   }
   .main_container__description_text{
     margin-bottom: 60px;
@@ -145,4 +145,13 @@ a{
     border: none;
     margin-bottom: 30px;
   }
+}
+.quest{
+  background: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 65px;
+  margin-bottom: 16px;
 }
