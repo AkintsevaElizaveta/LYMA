@@ -170,3 +170,35 @@ a{
     text-transform: uppercase;
   }
 }
+.founder{
+  background: url("../images/founder.jpg") 50% 50% no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 430px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+  .founder_text_box{
+    max-width: 350px;
+    margin: 0 0 0 50%;
+  }
+  .founder__title{
+    color: #1B1B1B;
+    font-size: 35px;
+    line-height: 43px;
+    letter-spacing: 0.5px;
+    margin-bottom: 33px;
+    text-align: left;
+  }
+  .founder__description_text{
+    color: #666666;
+    text-align: left;
+    margin-bottom: 12px;
+  }
+  .founder_link{
+    color: #1B1B1B;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+  }
+}
