@@ -14,6 +14,25 @@ a {
   overflow: hidden;
 }
 
+.description_text {
+  color: white;
+  margin: 0;
+  text-align: center;
+}
+
+.btn {
+  background: none;
+  color: white;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  font: 16px/25px "Montserrat", sans-serif;
+  width: 215px;
+  border: 1px solid #FFFFFF;
+  padding: 7px 0;
+  margin: 10px;
+}
+
 .header {
   padding: 25px 190px;
 }
@@ -71,14 +90,18 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 .main_container .main_title {
   color: white;
-  font-family: "Roboto", sans-serif;
+  font: 57px/67px "Roboto", sans-serif;
   font-size: 57px;
   line-height: 67px;
-  margin: 0;
+  margin: 0 0 35px;
   text-align: center;
+}
+.main_container .main_container__description_text {
+  margin-bottom: 60px;
 }
 
 /*# sourceMappingURL=main.css.map */
