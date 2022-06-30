@@ -237,6 +237,8 @@ a {
   padding: 0;
   display: flex;
   justify-content: center;
+  overflow: scroll;
+  position: relative;
 }
 .publications .slider_card {
   max-width: 340px;
@@ -246,6 +248,13 @@ a {
   justify-content: space-between;
   text-align: center;
   padding: 30px;
+  opacity: 0.5;
+  transition: 300ms ease;
+}
+.publications .slider_card:hover {
+  opacity: 1;
+  transform: scale(1.01);
+  transform-origin: bottom;
 }
 .publications .slider_text {
   font: 25px/30px "Roboto", sans-serif;
@@ -260,6 +269,111 @@ a {
 }
 .publications .slider_dots_item_active {
   background-color: #1B1B1B;
+}
+
+.footer {
+  width: 100%;
+  padding: 100px 238px;
+  background: black;
+}
+.footer__container {
+  width: 100%;
+  display: flex;
+}
+.footer__container_item {
+  margin-right: 60px;
+}
+.footer__nav_menu {
+  display: flex;
+}
+.footer__title {
+  color: #FFFFFF;
+  font-size: 13px;
+  line-height: 20px;
+  margin: 0 0 40px;
+}
+.footer__nav_menu_list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 12px;
+  line-height: 15px;
+}
+.footer__nav_menu_item {
+  margin-bottom: 8px;
+}
+.footer__nav_menu_link {
+  color: #7E7E7E;
+}
+.footer__nav_menu_link:hover {
+  color: #FFFFFF;
+}
+.footer__contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.footer .contacts_title {
+  letter-spacing: 2px;
+  margin-bottom: 42px;
+}
+.footer__contacts_sign_up_title {
+  font-size: 12px;
+  line-height: 15px;
+  color: #7E7E7E;
+  margin-bottom: 15px;
+}
+.footer__sign_up_form {
+  width: 366px;
+  padding-left: 20px;
+  border: 1px solid #FFFFFF;
+  display: flex;
+  margin-bottom: 50px;
+}
+.footer__sign_up_form_input {
+  background: none;
+  width: 230px;
+  border: none;
+  outline: none;
+  color: #7E7E7E;
+  padding: 11px 20px 11px 0;
+}
+.footer__sign_up_form_btn {
+  width: 135px;
+  background: #FFFFFF;
+  padding: 11px 0;
+  font-size: 12px;
+  line-height: 15px;
+  color: #7E7E7E;
+  border: none;
+  transition: 500ms;
+  cursor: pointer;
+}
+.footer__sign_up_form_btn:hover {
+  color: #1B1B1B;
+}
+.footer__networks {
+  margin-bottom: 19px;
+}
+.footer__networks_link {
+  margin-right: 25px;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: #FFFFFF;
+  display: inline-block;
+}
+.footer__networks_link:hover {
+  transform: scale(1.1);
+}
+.footer__networks_link:last-child {
+  margin-right: 0;
+}
+.footer__authors_right {
+  font-size: 10px;
+  line-height: 12px;
+  color: #7E7E7E;
+  margin: 0;
 }
 
 /*# sourceMappingURL=main.css.map */
